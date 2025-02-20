@@ -6,5 +6,14 @@ html {
   div {
     width: 200px;
     height: 150px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px; /* rem style */
+    background: red;
+    color: white;
+    text-shadow: black;
+    border-radius: 15px;
+    border: 1px solid #800020;
     
+
   }
