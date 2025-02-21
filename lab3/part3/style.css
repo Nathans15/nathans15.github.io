@@ -1,3 +1,23 @@
+/* Fonts */
+@font-face {
+    font-family: 'Exo';
+    src: url('fonts/Exo-Regular.woff2') format('woff2'),
+        url('fonts/Exo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* General setup */
 
 * {
@@ -9,8 +29,10 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-    line-height: 2;
-    
+    font-family: Source Sans Pro;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 1px;
   }
   
   /* Layout */
@@ -36,7 +58,6 @@
   
   header, section, aside, nav, footer {
     padding: 20px;
-    font-size: 12px;
   }
   
   /* header and footer */
@@ -47,3 +68,18 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  h1, h2 {
+    font-family: Exo;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+
+  }
+
+  h2 {
+    
+  }
+
+  
