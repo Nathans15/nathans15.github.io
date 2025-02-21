@@ -74,13 +74,17 @@
 
   h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     font-family: Exo;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: Source Sans Pro;
+  }
+
+  p {
+    text-indent: 20px;
   }
 
   a {
@@ -108,7 +112,7 @@
     text-decoration: underline dotted;
   }
 
-  p a {
+  p a[href*="http"] {
     background: url('./images/external-link-52.png') no-repeat right;
     background-size: 10px 10px;
     padding-right: 12px;
@@ -120,7 +124,10 @@
 
   nav ul {
     list-style-type: none;
+  }
 
+  nav ul a {
+    text-decoration: none;
   }
 
   li {
