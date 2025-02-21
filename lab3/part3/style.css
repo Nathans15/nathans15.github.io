@@ -69,19 +69,22 @@
   /* WRITE YOUR CODE BELOW HERE */
 
   h1, h2 {
-    font-family: Exo;
     letter-spacing: 1px;
   }
 
   h1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Exo;
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-family: Source Sans Pro;
+  }
+
+  a {
+    color: blue;
   }
 
   a:hover {
@@ -102,11 +105,31 @@
 
   a:active {
     color: green;
-    text-decoration: dotted;
+    text-decoration: underline dotted;
   }
 
   p a {
     background: url('./images/external-link-52.png') no-repeat right;
     background-size: 10px 10px;
-    padding-right: 11px;
+    padding-right: 12px;
+  }
+
+  ul {
+    list-style: circle;
+  }
+
+  nav ul {
+    list-style-type: none;
+
+  }
+
+  li {
+    line-height: 1.5;
+  }
+
+  nav li {
+    text-align: center;
+    border: 1px solid #a66;
+    padding: 10px;
+    margin: 15px;
   }
