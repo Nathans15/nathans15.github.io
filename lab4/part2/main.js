@@ -15,10 +15,11 @@ const imageAltText = [{altText1 : "eye"},
                       {altText5 : "butterfly"}];
 
 /* Looping through images */
-
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+for (let i = 0; i < imageFilename.length; i++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', 'images/' + imageFilename[i]);
+    newImage.setAttribute('alt', imageAltText[i]);
+    thumbBar.appendChild(newImage);
+}
 
 /* Wiring up the Darken/Lighten button */
